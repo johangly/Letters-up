@@ -24,7 +24,7 @@ a {
 main {
     width: 90%;
     margin: auto;
-    min-width: 800px;
+    min-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -85,12 +85,33 @@ main {
 
 @media only screen and (max-width: 1022px) {
     .texto-animado>div span {
-        font-size: 12vh;
+        font-size: 70px;
     }
 }
 
 @media only screen and (max-width: 824px) {
     .texto-animado>div span {
-        font-size: 10.4vh;
+        font-size: 60px;
+    }
+    .logotipo .subtitulo {
+        font-size: 28px;
+    }
+    .texto-animado>div span {
+        line-height: 75px;
+    }
+}
+
+@media only screen and (max-width: 611px) {
+    .texto-animado>div span {
+        font-size: 40px;
+    }
+    .logotipo .subtitulo {
+        font-size: 18px;
+    }
+    .logotipo {
+        padding: 7px;
+    }
+    .texto-animado>div span {
+        line-height: 50px;
     }
 }
